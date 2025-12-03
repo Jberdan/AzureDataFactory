@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedText_Source_Products",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer_GitHub_SampleData",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "kromerm/adfdataflowdocs/blob/master/sampledata/Products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
