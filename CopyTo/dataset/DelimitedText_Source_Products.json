@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "kromerm/adfdataflowdocs/blob/master/sampledata/Products.csv"
+				"relativeUrl": "kromerm/adfdataflowdocs/raw/master/sampledata/Product2.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
