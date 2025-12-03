@@ -98,9 +98,7 @@ To complete the project, you must create or add a trigger to automate as part of
 29.) Check mark "Start trigger on creation", then press OK button.
 30.) Publish to commit changes.
 
-
 ## Congratulations!!! you have completed a very simple ingestion of data using Azure Data Factory.
-
 
 
 NOTE: Please do not forget to delete the Resource Group you created to prevent recurring costs (if any).
