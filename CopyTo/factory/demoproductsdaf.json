@@ -1,0 +1,9 @@
+{
+	"name": "demoproductsdaf",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ed224713-ab4c-42b2-878f-b063e5c9bcb5",
+		"tenantId": "928f8438-a527-4644-9a98-da0c91c6c879"
+	}
+}
