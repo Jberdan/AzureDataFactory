@@ -1,0 +1,24 @@
+{
+	"name": "DailyProductHTTPExtract",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "SimpleCopyData_pl",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-12-04T23:59:00",
+				"timeZone": "Pacific Standard Time"
+			}
+		}
+	}
+}
