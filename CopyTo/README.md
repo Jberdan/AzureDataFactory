@@ -26,8 +26,7 @@ validations, transformations, and analytics sections please go to AzureDatabrick
 Now, here is the workflow narrative;
 
 01.) Triggerring the workflow
-  At a specific time, a scheduled job kiicks off in Azure Data Factory.  The Pipeline is 
-design to fetch the latest Products2.csv from the supplier's HTTP endpoint.
+  At a specific time, a scheduled job kicks off in Azure Data Factory.  The Pipeline is design to fetch the latest Products2.csv from the supplier's HTTP endpoint.
 
 02.) Extract (HTTP -> Raw Storage)
   - The pipeline must send an HTTP GET request to the supplier's endpoint.
@@ -88,7 +87,20 @@ NOTE: (1) Make sure your required folder hierarchy and file name is entered
 26.) Debug and verify file from storage account containers.
 27.) Once you confirm that the file is existing and exactly matching.
 
-## Congratulations!!! you completed a very simple ingestion of data using Azure 
-Data Factory.
+To complete the project, you must create or add a trigger to automate as part of the narrative.
 
-NOTE: Please do not forget to delete the Resource Group you created to prevent recurring costs.
+28.) Click Add trigger and enter appropriate Name, Type, Start Date, Time Zone, and Recurrence.
+      Trigger: DailyProductHTTPExtract
+      Type: Schedule
+      Start Date: <DateToday>, 11:59:59 PM
+      Time Zone: Pacifica Time
+      Recurrence: Every 1 Day
+29.) Check mark "Start trigger on creation", then press OK button.
+30.) Publish to commit changes.
+
+
+## Congratulations!!! you have completed a very simple ingestion of data using Azure Data Factory.
+
+
+
+NOTE: Please do not forget to delete the Resource Group you created to prevent recurring costs (if any).
