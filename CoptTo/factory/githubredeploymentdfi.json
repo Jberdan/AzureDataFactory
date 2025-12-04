@@ -1,9 +1,0 @@
-{
-	"name": "githubredeploymentdfi",
-	"location": "westus2",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "10c9555f-c904-44f4-88d0-f8b860ed181b",
-		"tenantId": "928f8438-a527-4644-9a98-da0c91c6c879"
-	}
-}
